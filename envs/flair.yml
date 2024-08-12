@@ -1,0 +1,7 @@
+name: flair
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - flair

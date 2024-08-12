@@ -1,0 +1,2 @@
+sample_id,file_path
+run1,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/run1.fastq.gz
