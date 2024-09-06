@@ -1,6 +1,10 @@
 # snakemake files
 .snakemake/*
 
+# text files
+*.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
