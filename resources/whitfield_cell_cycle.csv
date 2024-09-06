@@ -1,0 +1,52 @@
+Gene symbol,Accession,Published phase,Reference,Assigned phase
+E2F5,NM_001951,G1,"(Sardetet al., 1995; Grosheva et al., 2001)",G2/M
+CCNE1,M74093,G1/S,"(Lewet al., 1991)",G1/S
+CCNE2,NM_004702,G1/S,"(Zariwala et al., 1998)",G1/S
+CDC25A,NM_001789,G1/S,"(Jinno et al., 1994)",G1/S
+CDC45L,NM_003504,G1/S,"(Sahaet al., 1998)",S phase
+CDC6,NM_001254,G1/S,"(Leone et al., 1998; Yanet al., 1998)",G1/S
+"CDKN1A, p21",NM_000389,G1/S,"(Hiyama et al., 1998)",ND
+CDKN3,NM_005192,G1/S,"(Gyuriset al., 1993)",M/G1
+E2F1,NM_005225,G1/S,"(Leone et al., 1998)",G1/S
+MCM2,NM_004526,G1/S,"(Leone et al., 1998)",G1/S
+MCM6,NM_005915,G1/S,"(Leoneet al., 1998)",G1/S
+NPAT,NM_002519,G1/S,"(Maet al., 2000; Zhao et al., 2000)",G1/S
+PCNA,NM_002592,G1/S,"(Morris and Mathews, 1989)",G1/S
+SLBP,NM_006527,G1/S,"(Whitfield et al., 2000)",G1/S
+BRCA1,NM_007295,S phase,"(Rajan et al., 1996)",S phase
+BRCA2,NM_000059,S phase,"(Rajanet al., 1996; Vaughn et al., 1996)",ND
+CCNG2,NM_004354,S phase,"(Horneet al., 1996)",ND
+CDKN2C,NM_001262,S phase,"(Okuda et al., 1995)",G2
+DHFR,NM_000791,S phase,"(Slansky and Farnham, 1996)",S phase
+Histone H1,multiple genes,S phase,"(Heintz et al., 1983; Plumb et al., 1983; Harris et al., 1991)",S phase*
+Histone H2A,multiple genes,S phase,"(Heintz et al., 1983; Plumb et al., 1983; Harris et al., 1991)",S phase*
+Histone H2B,multiple genes,S phase,"(Heintz et al., 1983; Plumb et al., 1983; Harris et al., 1991)",S phase*
+Histone H3,multiple genes,S phase,"(Heintz et al., 1983;Plumb et al., 1983; Harris et al., 1991)",ND
+Histone H4,multiple genes,S phase,"(Heintz et al., 1983; Plumb et al., 1983; Harris et al., 1991)",S phase*
+MSH2,NM_000251,S phase,"(Marra et al., 1996)",G1/S
+NASP,NM_002482,S phase,"(Richardson et al., 2000)",G1/S
+RRM1,NM_001033,S phase,"(Bjorklund et al., 1990)",S phase
+RRM2,NM_001034,S phase,"(Bjorklund et al., 1990)",S phase
+TYMS,NM_001071,S phase,"(Kaczmarek, 1986)",S phase
+CCNA2,NM_001237,G2,"(Pines and Hunter, 1990)",G2
+CCNF,NM_001761,G2,"(Bai et al., 1994)",G2
+CENPF,NM_016343,G2,"(Liao et al., 1995)",G2/M
+TOP2A,NM_001067,G2,"(Goswarni et al., 1996)",G2
+BIRC5,NM_001168,G2/M,"(Li and Altieri, 1999)",G2/M
+BUB1,NM_004336,G2/M,"(Ouyang et al., 1998)",G2/M
+BUB1B,NM_001211,G2/M,"(Davenportet al., 1999)",G2/M
+CCNB1,NM_031966,G2/M,"(Pines and Hunter, 1989)",G2/M
+CCNB2,NM_004701,G2/M,"(Jackman et al., 1995)",G2/M
+CDC2,NM_001786,G2/M,"(Dalton, 1992; Zwickeret al., 1995)",G2
+CDC20,NM_001255,G2/M,"(Weinstein et al., 1994;Weinstein, 1997)",G2/M
+CDC25B,NM_021874,G2/M,"(Jinnoet al., 1994)",G2/M
+CDC25C,NM_001790,G2/M,"(Lucibello et al., 1995;Zwicker et al., 1995)",G2
+"CDKN2D, p19",NM_001800,G2/M,"(Hirai et al., 1995)",G2/M
+CENPA,NM_001809,G2/M,"(Shelby et al., 1997)",G2/M
+CKS1,BC001425,G2/M,"(Richardson et al., 1990)",G2
+CKS2,NM_001827,G2/M,"(Richardsonet al., 1990)",G2/M
+PLK,NM_005030,G2/M,"(Holtrich et al., 1994; Leeet al., 1995)",G2/M
+STK15,NM_003600,G2/M,"(Shindo et al., 1998)",G2/M
+STK6,NM_003158,G2/M,"(Kimuraet al., 1997)",NM
+RACGAP1,NM_013277,G2/M,"(Hirose et al., 2001)",NM
+RAB6KIFL,NM_005733,G2/M,"(Fontijn et al., 2001)",NM

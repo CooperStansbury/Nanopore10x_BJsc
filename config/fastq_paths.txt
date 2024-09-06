@@ -1,2 +1,22 @@
 sample_id,file_path
-run1,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/run1.fastq.gz
+# run1,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/run1.fastq.gz
+# Run5a,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run5a.fastq.gz
+# Run2a,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run2a.fastq.gz
+Run3,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run3.fastq.gz
+# Run4,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run4.fastq.gz
+# Run3a,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run3a.fastq.gz
+# Run4a,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run4a.fastq.gz
+# Run2,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run2.fastq.gz
+# Run5,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run5.fastq.gz
+# Run7b,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run7b.fastq.gz
+# Run5b,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run5b.fastq.gz
+# Run6b,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run6b.fastq.gz
+# Run6a,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run6a.fastq.gz
+# Run5c,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run5c.fastq.gz
+# Run4d,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run4d.fastq.gz
+# Run6c,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run6c.fastq.gz
+# Run6d,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run6d.fastq.gz
+# Run7a,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run7a.fastq.gz
+# Run4c,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run4c.fastq.gz
+# Run6,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run6.fastq.gz
+# Run4b,/nfs/turbo/umms-indikar/shared/projects/cell_cycle/data/sc_cell_cycle_2024/transcripts/merged/Run4b.fastq.gz
