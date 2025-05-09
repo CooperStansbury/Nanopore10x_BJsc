@@ -36,27 +36,37 @@ include: "rules/reference.smk"
 include: "rules/demultiplex.smk"
 include: "rules/core.smk"
 include: "rules/anndata.smk"
+include: "rules/isoquant.smk"
+include: "rules/rna_velocity.smk"
 
 rule all:
     input:
-        # OUTPUT + 'references/reference.fa',
-        # OUTPUT + 'references/transcripts.fa',
-        # OUTPUT + 'references/annotations.gtf',
-        # OUTPUT + 'references/geneTable.csv',
+        OUTPUT + 'references/reference.fa',
+        OUTPUT + 'references/transcripts.fa',
+        OUTPUT + 'references/annotations.gtf',
+        OUTPUT + 'references/geneTable.csv',
         expand(OUTPUT + "fastq/{sid}.raw.fastq.gz", sid=samples),
         expand(OUTPUT + "demultiplex/{sid}.done", sid=samples),
-        # expand(OUTPUT + "reports/fastqc/{sid}.report.html", sid=samples),
-        # expand(OUTPUT + "mapping/{sid}.bam.bai", sid=samples),
-        # expand(OUTPUT + "mapping/{sid}.tagged.bam.bai", sid=samples),
-        # expand(OUTPUT + "reports/bamstats/{sid}.bamstats", sid=samples),
-        # expand(OUTPUT + "individual_counts/{sid}.counts.txt", sid=samples),
-        # OUTPUT + 'reports/seqkit_stats/raw_report.txt',
-        # OUTPUT + 'reports/seqkit_stats/demultiplexed_report.txt',
-        # OUTPUT + 'merged/merged.bam.bai',
-        # OUTPUT + 'merged/merged.stats',
-        # OUTPUT + 'merged/merged.bamstats',
-        # OUTPUT + 'merged/merged.counts.txt',
-        # OUTPUT + 'scanpy/raw.anndata.h5ad',
+        expand(OUTPUT + "reports/fastqc/{sid}.report.html", sid=samples),
+        expand(OUTPUT + "mapping/{sid}.bam.bai", sid=samples),
+        expand(OUTPUT + "mapping/{sid}.tagged.bam.bai", sid=samples),
+        expand(OUTPUT + "reports/bamstats/{sid}.bamstats", sid=samples),
+        expand(OUTPUT + "individual_counts/{sid}.counts.txt", sid=samples),
+        OUTPUT + 'reports/seqkit_stats/raw_report.txt',
+        OUTPUT + 'reports/seqkit_stats/demultiplexed_report.txt',
+        OUTPUT + 'merged/merged.bam.bai',
+        OUTPUT + 'merged/merged.stats',
+        OUTPUT + 'merged/merged.bamstats',
+        OUTPUT + 'merged/merged.counts.txt',
+        OUTPUT + 'scanpy/raw.anndata.h5ad',
+        expand(OUTPUT + "isoquant/{sid}.done", sid=samples),
+        OUTPUT + "isoquant/annotations.db",
+        OUTPUT + "isoquant_prepared/gene_counts.csv",
+        OUTPUT + "isoquant_prepared/transcript_counts.csv",
+        OUTPUT + "isoquant_prepared/isoforms.csv",
+        OUTPUT + 'velocyto/merged.tagged.bam',
+        OUTPUT + 'velocyto/run_velocyto.done',
+
         
 
 rule test:

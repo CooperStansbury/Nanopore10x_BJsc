@@ -36,6 +36,8 @@ include: "rules/reference.smk"
 include: "rules/demultiplex.smk"
 include: "rules/core.smk"
 include: "rules/anndata.smk"
+include: "rules/isoquant.smk"
+include: "rules/rna_velocity.smk"
 
 rule all:
     input:
@@ -57,6 +59,14 @@ rule all:
         OUTPUT + 'merged/merged.bamstats',
         OUTPUT + 'merged/merged.counts.txt',
         OUTPUT + 'scanpy/raw.anndata.h5ad',
+        expand(OUTPUT + "isoquant/{sid}.done", sid=samples),
+        OUTPUT + "isoquant/annotations.db",
+        OUTPUT + "isoquant_prepared/gene_counts.csv",
+        OUTPUT + "isoquant_prepared/transcript_counts.csv",
+        OUTPUT + "isoquant_prepared/isoforms.csv",
+        OUTPUT + 'velocyto/merged.tagged.bam',
+        OUTPUT + 'velocyto/run_velocyto.done',
+
         
 
 rule test:
